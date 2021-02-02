@@ -1,0 +1,38 @@
+=============== Jan 28, 2021 (PST) ===============
+04:34:46.159283 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:34:46.170276 db@open opening
+04:34:46.172277 version@stat F·[] S·0B[] Sc·[]
+04:34:46.174342 db@janitor F·2 G·0
+04:34:46.174342 db@open done T·4.0654ms
+04:34:46.195364 db@close closing
+04:34:46.199370 db@close done T·4.0056ms
+=============== Jan 28, 2021 (PST) ===============
+04:50:18.984757 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:50:18.985757 version@stat F·[] S·0B[] Sc·[]
+04:50:18.985757 db@open opening
+04:50:18.985757 journal@recovery F·1
+04:50:18.992758 journal@recovery recovering @1
+04:50:19.005017 memdb@flush created L0@2 N·15 S·1019B "A'\xed..E\xc0\x04,v4":"\x96\xab\xdf..p8\xcf,v5"
+04:50:19.016020 version@stat F·[1] S·1019B[1019B] Sc·[0.25]
+04:50:19.033083 db@janitor F·3 G·0
+04:50:19.033083 db@open done T·47.3268ms
+=============== Jan 30, 2021 (PST) ===============
+04:12:30.885256 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:12:30.896249 version@stat F·[1] S·1019B[1019B] Sc·[0.25]
+04:12:30.896249 db@open opening
+04:12:30.896249 journal@recovery F·1
+04:12:30.903259 journal@recovery recovering @3
+04:12:30.919079 memdb@flush created L0@5 N·2 S·474B "Dat..ion,v17":"cli..\xfdZ\x8b,v18"
+04:12:30.925099 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+04:12:30.941106 db@janitor F·4 G·0
+04:12:30.941106 db@open done T·44.8573ms
+=============== Jan 31, 2021 (PST) ===============
+05:23:58.769836 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+05:23:58.779871 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+05:23:58.779871 db@open opening
+05:23:58.780856 journal@recovery F·1
+05:23:58.784855 journal@recovery recovering @6
+05:23:58.799483 memdb@flush created L0@8 N·14 S·740B "Fas..mit,v20":"r\x00\x00..\xc3z\x11,v30"
+05:23:58.804467 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+05:23:58.824593 db@janitor F·5 G·0
+05:23:58.824593 db@open done T·43.7377ms
